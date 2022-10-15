@@ -1,12 +1,12 @@
 "use strict";
 var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DOMAIN_REGISTRY_ADDRESS = exports.CROSS_CHAIN_SEAPORT_ADDRESS = exports.KNOWN_CONDUIT_KEYS_TO_CONDUIT = exports.NO_CONDUIT = exports.ONE_HUNDRED_PERCENT_BP = exports.MAX_INT = exports.BasicOrderRouteType = exports.Side = exports.ItemType = exports.OrderType = exports.EIP_712_ORDER_TYPE = exports.OPENSEA_CONDUIT_ADDRESS = exports.OPENSEA_CONDUIT_KEY = exports.SEAPORT_CONTRACT_VERSION = exports.SEAPORT_CONTRACT_NAME = void 0;
+exports.CROSS_CHAIN_SEAPORT_ADDRESS = exports.KNOWN_CONDUIT_KEYS_TO_CONDUIT = exports.NO_CONDUIT = exports.ONE_HUNDRED_PERCENT_BP = exports.MAX_INT = exports.BasicOrderRouteType = exports.Side = exports.ItemType = exports.OrderType = exports.EIP_712_ORDER_TYPE = exports.OPENSEA_CONDUIT_ADDRESS = exports.OPENSEA_CONDUIT_KEY = exports.SEAPORT_CONTRACT_VERSION = exports.SEAPORT_CONTRACT_NAME = void 0;
 var ethers_1 = require("ethers");
-exports.SEAPORT_CONTRACT_NAME = "Seaport";
+exports.SEAPORT_CONTRACT_NAME = "Starport";
 exports.SEAPORT_CONTRACT_VERSION = "1.1";
-exports.OPENSEA_CONDUIT_KEY = "0x0000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000";
-exports.OPENSEA_CONDUIT_ADDRESS = "0x1e0049783f008a0085193e00003d00cd54003c71";
+exports.OPENSEA_CONDUIT_KEY = "0x68D730a05a162AB5B47D52574CfC56454F88544d000000000000000000000000";
+exports.OPENSEA_CONDUIT_ADDRESS = "0xfe12d2951aa897fb0cf394a5564d3c6004832de9";
 exports.EIP_712_ORDER_TYPE = {
     OrderComponents: [
         { name: "offerer", type: "address" },
@@ -74,6 +74,5 @@ exports.NO_CONDUIT = "0x00000000000000000000000000000000000000000000000000000000
 exports.KNOWN_CONDUIT_KEYS_TO_CONDUIT = (_a = {},
     _a[exports.OPENSEA_CONDUIT_KEY] = exports.OPENSEA_CONDUIT_ADDRESS,
     _a);
-exports.CROSS_CHAIN_SEAPORT_ADDRESS = "0x00000000006c3852cbef3e08e8df289169ede581";
-exports.DOMAIN_REGISTRY_ADDRESS = "0x000000000DaD0DE04D2B2D4a5A74581EBA94124A";
+exports.CROSS_CHAIN_SEAPORT_ADDRESS = "0xed16094DE0E76DF5B782df4E2393918BCdC0079D";
 //# sourceMappingURL=constants.js.map
