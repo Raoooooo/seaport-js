@@ -1,50 +1,31 @@
 {
-  "parameters": {
-    "offerer": "0xC2C304a0aA108428bA15BD5357EE069ea055e6F5",
-    "zone": "0x321a0420155fa05728ce9def74cc3565d35e9924",
-    "zoneHash": "0x3000000000000000000000000000000000000000000000000000000000000000",
-    "startTime": 1665834926,
-    "endTime": "0",
-    "orderType": 2,
-    "offer": [
-      {
-        "itemType": 1,
-        "token": "0x38781bd54b74bf1b7692c16e9362587c13fa3986",
-        "identifierOrCriteria": "0",
-        "startAmount": "500000000000000000000",
-        "endAmount": "500000000000000000000"
-      }
-    ],
-    "consideration": [
-      {
-        "itemType": 2,
-        "token": "0x70c3fc65f5cb9f9f0a3740a967d1cd912081d79b",
-        "identifierOrCriteria": "26",
-        "startAmount": "1",
-        "endAmount": "1",
-        "recipient": "0xc2c304a0aa108428ba15bd5357ee069ea055e6f5"
-      },
-      {
-        "itemType": 1,
-        "token": "0x38781bd54b74bf1b7692c16e9362587c13fa3986",
-        "identifierOrCriteria": "0",
-        "startAmount": "1500000000000000000",
-        "endAmount": "1500000000000000000",
-        "recipient": "0xbF44214fB2C31cfBFBd2Ba0496a11772c7BE47cb"
-      },
-      {
-        "itemType": 1,
-        "token": "0x38781bd54b74bf1b7692c16e9362587c13fa3986",
-        "identifierOrCriteria": "0",
-        "startAmount": "25000000000000000000",
-        "endAmount": "25000000000000000000",
-        "recipient": "0xb7645f962df9aca4f61193fd8c4d29a1073b7211"
-      }
-    ],
-    "totalOriginalConsiderationItems": 3,
-    "salt": "0x52d62a4d7f94bb51b92616ba19fc1bdd",
-    "conduitKey": "0x68D730a05a162AB5B47D52574CfC56454F88544d000000000000000000000000",
-    "counter": 0
-  },
-  "signature": "0x88437521769a3e63f1d58665bb2b7e3ef43614cd3734aa9cbda949c8afcfcfe9762eccf84ecd5da0c2ba1816fbf4e6076fb7266c35a8018510ae02606f8a1a0f"
+  "offer": [
+    {
+      "amount": "700000000000000000000",
+      "token": "0x38781bd54b74bf1b7692c16e9362587c13fa3986"
+    }
+  ],
+  "consideration": [
+    {
+      "itemType": 2,
+      "token": "0x70c3fc65f5cb9f9f0a3740a967d1cd912081d79b",
+      "identifier": "26",
+      "recipient": "0xc2c304a0aa108428ba15bd5357ee069ea055e6f5"
+    }
+  ],
+  "fees": [
+    {
+      "recipient": "0xbF44214fB2C31cfBFBd2Ba0496a11772c7BE47cb",
+      "basisPoints": "30"
+    },
+    {
+      "recipient": "0xb7645f962df9aca4f61193fd8c4d29a1073b7211",
+      "basisPoints": "500"
+    }
+  ],
+  "conduitKey": "0x68D730a05a162AB5B47D52574CfC56454F88544d000000000000000000000000",
+  "zone": "0x321a0420155fa05728ce9def74cc3565d35e9924",
+  "restrictedByZone": true,
+  "startTime": 1665836847,
+  "endTime": "0"
 }
